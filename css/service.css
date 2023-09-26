@@ -1,0 +1,111 @@
+#service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: #F2F2F2;
+}
+.title1{
+    color: #FA3B38;
+    text-align: center;
+    font-family: bold;
+    font-size: 20px;
+    font-style: normal;
+    /* font-weight: 700; */
+    line-height: normal;
+    margin-top: 6.73%;
+}
+.title2{
+    color: #515153;
+    text-align: center;
+    font-family: bold;
+    font-size: 32px;
+    font-style: normal;
+    /* font-weight: 700; */
+    line-height: 150.2%;
+    /* margin-top: 10px; */
+}
+
+
+.servicebox{
+    width: 79.16%;
+    height: auto;
+    /* background-color: black; */
+    margin-top: 3.06%;
+    margin-bottom: 6.73%;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 22px;
+}
+.servicebox .card{
+    width: 270px;
+    height: 356px;
+    background-color: white;
+    /* margin-bottom: 20px; */
+}
+.servicebox .card img{
+    width: 270px;
+    height: 200px;
+}
+.servicebox .card h4{
+    width: 82.2%;
+    color: #FA3B38;
+    /* text-align: center; */
+    font-family: semibold;
+    font-size: 16px;
+    font-style: normal;
+    /* font-weight: 600; */
+    line-height: normal;
+    margin-left: 8.52%;
+    margin-top: 5.62%;
+}
+.servicebox .card p{
+    width: 82.2%;
+    color: #000;
+    font-family: regular;
+    font-size: 11px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: normal;
+    margin-left: 8.52%;
+    margin-top: 3.37%;
+}
+
+
+@media (width < 480px) {
+    .servicebox{
+        width: 90%;
+        flex-wrap: wrap;
+        margin-top: 4%;
+        margin-bottom: 8%;
+    }
+    #service h2{
+        font-size: 16px;
+    }
+    #service h1{
+        font-size: 20px;
+    }
+}
+@media (width >= 480px) and (width < 768px){
+    .servicebox{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    #service h1{
+        font-size: 28px;
+    }
+}
+@media (width >= 768px) and (width < 1000px){
+    .servicebox{
+        width: 80%;
+        flex-wrap: wrap;
+    }
+}
+@media (width >= 1000px) and (width < 1200px){
+    .servicebox{
+        width: 70%;
+        flex-wrap: wrap;
+    }
+}

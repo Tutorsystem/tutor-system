@@ -1,0 +1,222 @@
+#hero{
+    width: 100%;
+    padding-top: 100px;
+    height: auto;
+    background: url(../img/bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.herocontent{
+    flex-basis: 50%;
+    height: 80vh;
+    /* background-color: black; */
+}
+.herocontent h1{
+    width: 67.1%;
+    color: #FFF;
+    font-family: bold;
+    font-size: 36px;
+    font-style: normal;
+    /* font-weight: 700; */
+    line-height: normal;
+    margin-left: 20.83%;
+    /* margin-top: 19.23%; */
+    margin-top: 14.93%;
+}
+.herocontent p{
+    width: 60.56%;
+    color: #DBDADA;
+    font-family: regular;
+    font-size: 16px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: normal;
+    margin-left: 20.83%;
+    margin-top: 2.39%;
+}
+.herocontent button{
+    color: #FFF;
+    font-family: medium;
+    font-size: 14px;
+    font-style: normal;
+    /* font-weight: 500; */
+    line-height: normal;
+    padding: 12px 15px;
+    background: #FA3B38;
+    border-style: none;
+    margin-left: 20.83%;
+    margin-top: 2.98%;
+}
+
+
+.hours{
+    flex-basis: 50%;
+    height: 80vh;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.hours .infohours{
+    width: 65%;
+    height: 80px;
+    background-color: #FA3B38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.infohours div{
+    width: 310px;
+    height: auto;
+}
+.infohours div p:nth-child(1){
+    color: #DBDADA;
+    font-family: regular;
+    font-size: 16px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: normal;
+}
+.infohours div p:nth-child(2){
+    color: #FFF;
+    font-family: medium;
+    font-size: 16px;
+    font-style: normal;
+    /* font-weight: 500; */
+    line-height: normal;
+}
+
+
+
+@media (width < 480px) {
+    #hero{
+        flex-wrap: wrap;
+    }
+    .herocontent{
+        flex-basis: 100%;
+        height: auto;
+    }
+    .herocontent h1{
+        margin-left: 10.5%;
+        font-size: 28px;
+        width: 67.1%;
+    }
+    .herocontent p{
+        margin-left: 10.5%;
+        width: 60.56%;
+    }
+    .herocontent button{
+        margin-left: 10.5%;
+        font-size: 14px;
+    }
+    .hours{
+        flex-basis: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .hours .infohours{
+        width: 80%;
+        height: 60px;
+        gap: 4px;
+        justify-content: center;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    .infohours div{
+        width: auto;
+    }
+    .infohours div p:nth-child(1){
+        font-size: 10px;
+    }
+    .infohours div p:nth-child(2){
+        font-size: 10px;
+    }
+    .infohours img{
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (width >= 480px) and (width < 768px){
+    #hero{
+        flex-wrap: wrap;
+    }
+    .herocontent{
+        flex-basis: 100%;
+        height: auto ;
+    }
+    .herocontent h1{
+        margin-left: 10.5%;
+    }
+    .herocontent p{
+        margin-left: 10.5%;
+    }
+    .herocontent button{
+        margin-left: 10.5%;
+    }
+    .hours{
+        flex-basis: 100%;
+        height: auto ;
+        justify-content: center;
+        align-items: center;
+    }
+    .hours .infohours{
+        width: 80%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+}
+
+@media (width >= 768px) and (width < 1000px){
+    #hero{
+        flex-wrap: wrap;
+    }
+    .herocontent{
+        flex-basis: 100%;
+        height: auto ;
+    }
+    .herocontent h1{
+        margin-left: 10.5%;
+    }
+    .herocontent p{
+        margin-left: 10.5%;
+    }
+    .herocontent button{
+        margin-left: 10.5%;
+    }
+    .hours{
+        flex-basis: 100%;
+        height: auto ;
+        justify-content: center;
+        align-items: center;
+    }
+    .hours .infohours{
+        width: 80%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+}
+
+@media (width >= 1000px) and (width < 1200px){
+    .herocontent{
+        height: 85vh;
+    }
+    .hours{
+        height: 85vh;
+    }
+    .herocontent h1{
+        width: 75%;
+    }
+    .herocontent p{
+        width: 70%;
+    }
+    .hours .infohours{
+        width: 80%;
+    }
+}

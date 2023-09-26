@@ -1,0 +1,80 @@
+.gap1{
+    width: 100%;
+    height: 100px;
+    background: #F2F2F2;
+}
+
+.brands{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.brandbox{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.brandbox img{
+    margin: 20px 0;
+}
+
+.brandbox img:nth-child(1){
+    width: 125px;
+    height: 20px;
+}
+.brandbox img:nth-child(2){
+    width: 62px;
+    height: 56px;
+}
+.brandbox img:nth-child(3){
+    width: 135px;
+    height: 24px;
+}
+.brandbox img:nth-child(4){
+    width: 152px;
+    height: 40px;
+}
+.brandbox img:nth-child(5){
+    width: 127px;
+    height: 20px;
+}
+.brandbox img:nth-child(6){
+    width: 135px;
+    height: 20px;
+}
+.brandbox img:nth-child(7){
+    width: 90px;
+    height: 20px;
+}
+.brandbox img:nth-child(8){
+    width: 105px;
+    height: 40px;
+}
+.brandbox img:nth-child(9){
+    width: 96px;
+    height: 20px;
+}
+.brandbox img:nth-child(10){
+    width: 159px;
+    height: 20px;
+}
+
+@media (width<768px){
+    .brandbox{
+        justify-content:space-around;
+    }
+}
+@media (width<480px){
+    .brandbox{
+        width: 20%;
+    }
+}

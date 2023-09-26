@@ -1,0 +1,235 @@
+#why{
+    width: 100%;
+    height: auto;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whybox{
+    height: auto;
+    /* width: 79.16%; */
+    width: 1140px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 6.11%;
+}
+.whybox img{
+    /* width: 42.72%; */
+    width: 487px;
+    height: 596px;
+}
+
+
+.whybox .whycontent{
+    /* width: 57.28%; */
+    width: 653px;
+    height: 596px;
+}
+.whycontent .first{
+    width: 653px;
+    height: 484px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.whycontent .first h2{
+    text-align: start;
+    margin-left: 9.19%;
+    margin-top: 48px;
+}
+.whycontent .first h1{
+    text-align: start;
+    line-height: 120%;
+    margin-left: 9.19%;
+    width: 410px;
+    margin-top: 10px;
+}
+.whycontent .first p{
+    width: 516px;
+    color: #000;
+    font-family: regular;
+    font-size: 12px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 160%;
+    margin-left: 9.19%;
+    margin-top: 12px;
+}
+.whycontent .first div{
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-left: 9.19%;
+    margin-top: 20px;
+}
+.whycontent .first div div{
+    width: 12px;
+    height: 12px;
+    background: #FA3B38;
+    margin-left: 0;
+    margin-top: 0;
+}
+.whycontent .first div p{
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+
+.whycontent .second{
+    width: 653px;
+    height: 112px;
+    background: #FA3B38;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.whycontent .second div{
+    height: auto;
+}
+.whycontent .second div h2{
+    color: #FFF;
+    font-family: extrabold;
+    font-size: 32px;
+    font-style: normal;
+    /* font-weight: 800; */
+    line-height: normal;
+}
+.whycontent .second div p{
+    color: #FFF;
+    font-family: semibold;
+    font-size: 16px;
+    font-style: normal;
+    /* font-weight: 600; */
+    line-height: normal;
+}
+
+
+@media (width < 480px){
+    .whybox{
+        width: 80%;
+        height: auto;
+    }
+    .whybox img{
+        display: none;
+    }
+
+    .whybox .whycontent{
+        width: 100%;
+        height: auto;
+    }
+    .whycontent .first{
+        width: 100%;
+        height: auto;
+    }
+    .whycontent .first h1{
+        font-size: 24px;
+        width: 70%;
+    }
+    .whycontent .first h2{
+        font-size: 16px;
+    }
+    .whycontent .first p{
+        width: 80%;
+    }
+    .whycontent .first div{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .whycontent .first div:nth-child(8){
+        margin-bottom: 20px;
+    }
+    .whycontent .first div div{
+        margin-bottom: 0;
+    }
+    .whycontent .first{
+        width: 100%;
+    }
+
+    .whycontent .second{
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        padding: 10px 20px;
+        align-items: flex-start;
+    }
+    .whycontent .second div{
+        margin-bottom: 10px;
+    }
+    .whycontent .second div h2{
+        font-size: 30px;
+        font-family: bold;
+    }
+    .whycontent .second div p{
+        font-size: 14px;
+    }
+}
+
+@media (width >= 480px) and (width < 768px){
+    .whybox{
+        width: 80%;
+        height: auto;
+    }
+    .whybox img{
+        display: none;
+    }
+
+    .whybox .whycontent{
+        width: 100%;
+        height: auto;
+    }
+    .whycontent .first{
+        width: 100%;
+        height: auto;
+    }
+    .whycontent .first h1{
+        font-size: 28px;
+        width: 70%;
+    }
+    .whycontent .first p{
+        width: 80%;
+    }
+    .whycontent .first div{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .whycontent .first div:nth-child(8){
+        margin-bottom: 20px;
+    }
+    .whycontent .first div div{
+        margin-bottom: 0;
+    }
+    .whycontent .first{
+        width: 100%;
+    }
+    
+
+    .whycontent .second{
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px 0px;
+    }
+    .whycontent .second div h2{
+        font-size: 30px;
+        font-family: bold;
+    }
+    .whycontent .second div p{
+        font-size: 14px;
+    }
+
+}
+
+@media (width >= 768px) and (width < 1000px){
+    .whybox img{
+        display: none;
+    }
+}
+
+@media (width >= 1000px) and (width < 1200px){
+    .whybox img{
+        display: none;
+    }
+}
